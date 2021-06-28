@@ -23,5 +23,8 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "nconf": "^0.11.3"
   }
 }
