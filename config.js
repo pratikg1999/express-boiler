@@ -3,8 +3,8 @@ const nconf = require('nconf');
 const CONFIG = {
   default: {},
   local: {},
-  dev: {},
-  prod: {},
+  development: {},
+  production: {},
 };
 
 const loadConfig = () => {

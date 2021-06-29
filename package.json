@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "NODE_ENV=local PORT=8080 nodemon ./bin/www",
+    "local": "NODE_ENV=local PORT=8080 nodemon ./bin/www",
+    "dev": "NODE_ENV=development PORT=8080 nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
